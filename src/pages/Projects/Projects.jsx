@@ -23,17 +23,17 @@ const Projects = () => {
       id: 3,
       title: 'E-commerce de Tecnologia',
       description: 'Plataforma de e-commerce para venda de produtos tecnológicos',
-      technologies: ['React', 'D3.js', 'Express'],
+      technologies: ['React', 'Javascript', 'HTML', 'CSS'],
       image: '/images/TechStore.png',
       link: 'https://techstore-m0oq.onrender.com/'
     },
     {
       id: 4,
-      title: 'Rede Social',
-      description: 'Plataforma social com perfis, posts e mensagens',
-      technologies: ['React', 'GraphQL', 'PostgreSQL'],
-      image: 'https://via.placeholder.com/400x250/9b59b6/ffffff?text=Social+Network',
-      link: '#'
+      title: 'E-commerce de Periféricos Gamer',
+      description: 'Plataforma de e-commerce para vendas de periféricos Gamer.',
+      technologies: ['HTML', 'CSS',],
+      image: 'public/images/gamernoob.png',
+      link: 'https://betags.github.io/gamernoob/'
     },
     {
       id: 5,

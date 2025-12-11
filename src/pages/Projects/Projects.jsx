@@ -32,7 +32,7 @@ const Projects = () => {
       title: 'E-commerce de Periféricos Gamer',
       description: 'Plataforma de e-commerce para vendas de periféricos Gamer.',
       technologies: ['HTML', 'CSS',],
-      image: 'public/images/gamernoob.png',
+      image: '/images/gamernoob.png',
       link: 'https://betags.github.io/gamernoob/'
     },
     {

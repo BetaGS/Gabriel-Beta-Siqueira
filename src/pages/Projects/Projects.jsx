@@ -21,11 +21,11 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Dashboard Analytics',
-      description: 'Dashboard para análise de dados com gráficos interativos',
+      title: 'E-commerce de Tecnologia',
+      description: 'Plataforma de e-commerce para venda de produtos tecnológicos',
       technologies: ['React', 'D3.js', 'Express'],
-      image: 'https://via.placeholder.com/400x250/3498db/ffffff?text=Dashboard',
-      link: '#'
+      image: '/images/TechStore.png',
+      link: 'https://techstore-m0oq.onrender.com/'
     },
     {
       id: 4,

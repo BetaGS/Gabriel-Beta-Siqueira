@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'E-commerce de Confeitaria',
       description: 'Plataforma de e-commerce para venda de produtos de confeitaria',
       technologies: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
-      image: '/Imagens/docemila.png',
+      image: '/images/docemila.png',
       link: 'https://betags.github.io/docemila/'
     },
     {
@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Calculadora Online',
       description: 'Calculadora Básica: Realiza as quatro operações fundamentais: adição (+), subtração (-), multiplicação (x) e divisão (/). Geralmente inclui funções como porcentagem (%), raiz quadrada ($\sqrt{}$), e botões de memória',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: '/Imagens/calculadora.png',
+      image: '/images/calculadora.png',
       link: 'https://betags.github.io/calculadora/'
     },
     {

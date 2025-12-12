@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'Plataforma de e-commerce para venda de produtos de confeitaria',
       technologies: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
       image: '/images/docemila.png',
-      link: 'https://betags.github.io/docemila/'
+      link: 'https://betags.github.io/E-commerce-DoceMila/'
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Plataforma de e-commerce para vendas de periféricos Gamer.',
       technologies: ['HTML', 'CSS',],
       image: '/images/gamernoob.png',
-      link: 'https://betags.github.io/gamernoob/'
+      link: 'https://betags.github.io/E-commerce-GamerNoob/'
     },
     {
       id: 5,

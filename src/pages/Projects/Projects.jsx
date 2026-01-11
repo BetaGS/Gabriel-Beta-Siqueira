@@ -37,11 +37,11 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'App de Clima',
-      description: 'Aplicativo de previsão do tempo com localização',
-      technologies: ['React', 'API REST', 'CSS Modules'],
-      image: 'https://via.placeholder.com/400x250/2ecc71/ffffff?text=Weather+App',
-      link: '#'
+      title: 'Doce Mila',
+      description: 'E-commerce de confeitaria artesanal',
+      technologies: ['React', 'JavaScript',],
+      image: '/images/docemila-react.png',
+      link: 'https://e-commerce-doce-mila.onrender.com'
     },
     {
       id: 6,

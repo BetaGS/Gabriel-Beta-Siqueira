@@ -45,11 +45,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Blog Pessoal',
-      description: 'Blog com sistema de comentários e administração',
-      technologies: ['Next.js', 'Sanity.io', 'Tailwind'],
-      image: 'https://via.placeholder.com/400x250/e74c3c/ffffff?text=Personal+Blog',
-      link: '#'
+      title: 'Declaração de amor',
+      description: 'Site pessoal para declaração de amor',
+      technologies: ['React',],
+      image: '/images/declaracao.png',
+      link: 'https://declara-o-de-amor.onrender.com'
     }
   ];
 

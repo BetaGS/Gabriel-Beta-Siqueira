@@ -45,11 +45,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Declaração de amor',
-      description: 'Site pessoal para declaração de amor',
+      title: 'Projeto Filiar 2026',
+      description: 'Landing page da Creche Municipal Tia Maria, desenvolvida para dar visibilidade aos projetos pedagógicos expostos na FLIAR 2026.',
       technologies: ['React',],
-      image: '/images/declaracao.png',
-      link: 'https://declara-o-de-amor.onrender.com'
+      image: '/images/crechetiamaria.png',
+      link: 'https://creche-tia-maria.onrender.com/'
     }
   ];
 

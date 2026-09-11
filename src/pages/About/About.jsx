@@ -25,11 +25,12 @@ const About = () => {
                 <p>Projetos Concluídos</p>
               </div>
               <div className="stat">
-                <h3>-1</h3>
+                <h3>+1</h3>
                 <p>Ano de Experiência</p>
               </div>
               <div className="stat">
-                <h3>5+</h3>
+                <h3>5
+                  24+</h3>
                 <p>Clientes Satisfeitos</p>
               </div>
             </div>

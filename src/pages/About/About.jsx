@@ -14,9 +14,9 @@ const About = () => {
               busco sempre entregar produtos de alta qualidade que resolvam problemas reais.
             </p>
             <p>
-              Minha jornada começou há um pouco menos de 1 ano, e desde então tenho trabalhado em diversos 
-              projetos, desde pequenos sites até aplicações empresariais complexas. Acredito 
-              que a tecnologia deve ser acessível e intuitiva para todos.
+             Minha jornada começou há pouco mais de 1 ano e, desde então,
+              tenho trabalhado em diversos projetos, desde pequenos sites até aplicações empresariais complexas.
+              Sempre estudando e adquirindo mais conhecimento em outras áreas da programação, acredito que a tecnologia deve ser acessível e intuitiva para todos.
             </p>
             
             <div className="about-stats">

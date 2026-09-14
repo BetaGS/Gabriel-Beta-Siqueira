@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 7,
     title: 'BySportHub',
-    description: 'Substitua por uma descrição real do seu app mobile assim que publicar.',
+    description: 'O BySport é a plataforma completa de gestão esportiva criada para conectar toda a comunidade do seu time ou escolinha em um só lugar. Desenvolvido para aproximar alunos, pais, professores e coordenadores, o aplicativo centraliza o dia a dia esportivo, facilitando a comunicação e simplificando a organização das atividades',
     technologies: ['React Native', 'Expo'],
     image: '/images/bysporthub.png',
     link: 'https://expo.dev',

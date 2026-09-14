@@ -42,7 +42,7 @@ export const projects = [
     description: 'Plataforma de e-commerce para venda de produtos tecnológicos',
     technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
     image: '/images/TechStore.png',
-    link: 'https://techstore-m0oq.onrender.com/',
+    link: 'https://e-commerce-techstore-m6sj.onrender.com',
     category: 'web',
   },
   {
@@ -60,7 +60,7 @@ export const projects = [
     description: 'E-commerce de confeitaria artesanal',
     technologies: ['React', 'JavaScript'],
     image: '/images/docemila-react.png',
-    link: 'https://e-commerce-doce-mila.onrender.com',
+    link: 'https://e-commerce-doce-mila-react-o66x.onrender.com',
     category: 'web',
   },
   {

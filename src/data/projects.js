@@ -81,7 +81,7 @@ export const projects = [
     title: 'BySportHub',
     description: 'Substitua por uma descrição real do seu app mobile assim que publicar.',
     technologies: ['React Native', 'Expo'],
-    image: '../public/images/bysporthub.png',
+    image: '/images/bysporthub.png',
     link: 'https://expo.dev',
     appStoreLink: 'https://apps.apple.com/br/app/bysporthub/id6799594045',
     playStoreLink: 'https://play.google.com/store/apps/details?id=com.seuapp',

@@ -131,6 +131,37 @@ const Home = () => {
           </div>
         </div>
 
+        {/* Seção Em Estudo */}
+        <div className="learning-section">
+          <h2>Em Estudo</h2>
+          <p className="section-description">
+            Tecnologias que estou aprendendo agora para expandir do front-end para mobile e back-end
+          </p>
+
+          <div className="learning-grid">
+            <div className="learning-card">
+              <div className="learning-icon">📱</div>
+              <h3>React Native</h3>
+              <p>Desenvolvimento de aplicativos móveis multiplataforma (iOS e Android) usando os mesmos conceitos do React.</p>
+              <span className="learning-badge">Estudando</span>
+            </div>
+
+            <div className="learning-card">
+              <div className="learning-icon">🛠️</div>
+              <h3>Expo</h3>
+              <p>Ferramentas e serviços do ecossistema Expo para acelerar o desenvolvimento e a publicação de apps React Native.</p>
+              <span className="learning-badge">Estudando</span>
+            </div>
+
+            <div className="learning-card">
+              <div className="learning-icon">🗄️</div>
+              <h3>Back-End</h3>
+              <p>Construção de APIs, autenticação e integração com bancos de dados para dar suporte completo às aplicações.</p>
+              <span className="learning-badge">Estudando</span>
+            </div>
+          </div>
+        </div>
+
         {/* Seção sobre metodologia Bootstrap */}
         <div className="bootstrap-section">
           <div className="bootstrap-content">

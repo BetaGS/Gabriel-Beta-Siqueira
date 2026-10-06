@@ -84,7 +84,7 @@ export const projects = [
     image: '/images/bysporthub.png',
     link: 'https://expo.dev',
     appStoreLink: 'https://apps.apple.com/br/app/bysporthub/id6799594045',
-    playStoreLink: 'https://play.google.com/store/apps/details?id=com.seuapp',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.base69cac2c2a6e8efa56db5fe33.app&pcampaignid=web_share',
     category: 'mobile',
   },
 

@@ -357,3 +357,21 @@
   font-weight: 500;
   border: 1px solid rgba(139, 0, 0, 0.3);
 }
+/* ===== Atualização 3D ===== */
+.projects-grid .tilt-card {
+  height: 100%;
+}
+
+.projects-grid .project-card {
+  height: 100%;
+}
+
+.project-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background: linear-gradient(135deg, #3776ab, #1e1e1e 70%);
+}

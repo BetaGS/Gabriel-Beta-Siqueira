@@ -1,14 +1,44 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Hero3D from '../../components/Hero3D/Hero3D';
+import TiltCard from '../../components/TiltCard/TiltCard';
+import ApiPlayground from '../../components/ApiPlayground/ApiPlayground';
 import './Home.css';
+
+const skills = [
+  { icon: '🌐', title: 'HTML & Semântica', level: 95, text: 'Criação de estruturas semânticas, acessíveis e otimizadas para SEO. Domínio de tags modernas, microdados e validação W3C.' },
+  { icon: '🎨', title: 'CSS & Design', level: 90, text: 'Estilização responsiva, animações CSS, Grid, Flexbox e variáveis CSS. Foco em UX/UI e performance.' },
+  { icon: '⚡', title: 'Bootstrap', level: 92, text: 'Desenvolvimento responsivo com Bootstrap, customização de temas, componentes e utilitários. Grid system e breakpoints.' },
+  { icon: '🚀', title: 'JavaScript', level: 90, text: 'JavaScript moderno, async/await, promises, manipulação de DOM, APIs REST e programação funcional.' },
+  { icon: '⚛️', title: 'React.js', level: 88, text: 'Desenvolvimento de SPA com React, Hooks, Context API, React Router, gerenciamento de estado e componentes funcionais.' },
+  { icon: '📱', title: 'Responsividade', level: 94, text: 'Design mobile-first, media queries, testes em múltiplos dispositivos e foco em experiência do usuário em todas as telas.' },
+];
+
+const tools = [
+  { cls: 'html', label: 'HTML', text: 'Estrutura Web' },
+  { cls: 'css', label: 'CSS', text: 'Estilização' },
+  { cls: 'bootstrap', label: 'BS', text: 'Bootstrap' },
+  { cls: 'react', label: 'React', text: 'React.js' },
+  { cls: 'python', label: 'Py', text: 'Python' },
+  { cls: 'node', label: 'Node', text: 'Node.js' },
+  { cls: 'git', label: 'Git', text: 'Versionamento' },
+  { cls: 'figma', label: 'Figma', text: 'Design UI/UX' },
+];
+
+const learning = [
+  { icon: '📱', title: 'React Native', text: 'Desenvolvimento de aplicativos móveis multiplataforma (iOS e Android) usando os mesmos conceitos do React.' },
+  { icon: '🛠️', title: 'Expo', text: 'Ferramentas e serviços do ecossistema Expo para acelerar o desenvolvimento e a publicação de apps React Native.' },
+  { icon: '🗄️', title: 'Back-End', text: 'Construção de APIs em Python, autenticação e integração com bancos de dados para dar suporte completo às aplicações.' },
+];
 
 const Home = () => {
   return (
     <div className="home">
       <div className="container">
         <div className="hero-section">
-          <h1 className="hero-title">Desenvolvedor Front-End</h1>
-          <p className="hero-subtitle">Transformando ideias em soluções digitais impactantes</p>
+          <Hero3D />
+          <h1 className="hero-title">Desenvolvedor FullStack</h1>
+          <p className="hero-subtitle">Transformando ideias em soluções digitais impactantes do front-end ao back-end</p>
           <div className="hero-buttons">
             <Link to="/Projects" className="btn-primary">Ver Projetos</Link>
             <Link to="/contact" className="btn-secondary">Entrar em Contato</Link>
@@ -22,116 +52,45 @@ const Home = () => {
           </p>
 
           <div className="skills-grid">
-            <div className="skill-card">
-              <div className="skill-icon">🌐</div>
-              <h3>HTML & Semântica</h3>
-              <p>Criação de estruturas semânticas, acessíveis e otimizadas para SEO. Domínio de tags modernas, microdados e validação W3C.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '95%' }}></div>
+            {skills.map((skill, i) => (
+              <TiltCard key={skill.title} delay={(i % 3) * 90}>
+                <div className="skill-card">
+                  <div className="skill-icon">{skill.icon}</div>
+                  <h3>{skill.title}</h3>
+                  <p>{skill.text}</p>
+                  <div className="skill-level">
+                    <span className="level-text">Avançado</span>
+                    <div className="level-bar">
+                      <div className="level-fill" style={{ width: `${skill.level}%` }}></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">🎨</div>
-              <h3>CSS & Design</h3>
-              <p>Estilização responsiva, animações CSS, Grid, Flexbox e variáveis CSS. Foco em UX/UI e performance.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">⚡</div>
-              <h3>Bootstrap</h3>
-              <p>Desenvolvimento responsivo com Bootstrap, customização de temas, componentes e utilitários. Grid system e breakpoints.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '92%' }}></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">🚀</div>
-              <h3>JavaScript</h3>
-              <p>JavaScript moderno, async/await, promises, manipulação de DOM, APIs REST e programação funcional.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">⚛️</div>
-              <h3>React.js</h3>
-              <p>Desenvolvimento de SPA com React, Hooks, Context API, React Router, gerenciamento de estado e componentes funcionais.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '88%' }}></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">📱</div>
-              <h3>Responsividade</h3>
-              <p>Design mobile-first, media queries, testes em múltiplos dispositivos e foco em experiência do usuário em todas as telas.</p>
-              <div className="skill-level">
-                <span className="level-text">Avançado</span>
-                <div className="level-bar">
-                  <div className="level-fill" style={{ width: '94%' }}></div>
-                </div>
-              </div>
-            </div>
+              </TiltCard>
+            ))}
           </div>
         </div>
 
-        {/* Seção de Tecnologias - Versão Corrigida */}
+        <div className="backend-section">
+          <h2>Back-End em Python</h2>
+          <p className="section-description">
+            Este portfólio tem um servidor próprio em Python. Teste a API ao vivo: ela conta visitas,
+            serve os projetos e recebe as mensagens do formulário de contato.
+          </p>
+          <ApiPlayground />
+        </div>
+
         <div className="technologies-section">
           <h2>Frameworks & Ferramentas</h2>
           <div className="tech-grid">
-            <div className="tech-item">
-              <div className="tech-icon html">HTML</div>
-              <span>Estrutura Web</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon css">CSS</div>
-              <span>Estilização</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon bootstrap">BS</div>
-              <span>Bootstrap</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon react">React</div>
-              <span>React.js</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon node">Node</div>
-              <span>Node.js</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon git">Git</div>
-              <span>Versionamento</span>
-            </div>
-            <div className="tech-item">
-              <div className="tech-icon figma">Figma</div>
-              <span>Design UI/UX</span>
-            </div>
+            {tools.map((tool) => (
+              <div className="tech-item" key={tool.cls}>
+                <div className={`tech-icon ${tool.cls}`}>{tool.label}</div>
+                <span>{tool.text}</span>
+              </div>
+            ))}
           </div>
         </div>
 
-        {/* Seção Em Estudo */}
         <div className="learning-section">
           <h2>Em Estudo</h2>
           <p className="section-description">
@@ -139,30 +98,19 @@ const Home = () => {
           </p>
 
           <div className="learning-grid">
-            <div className="learning-card">
-              <div className="learning-icon">📱</div>
-              <h3>React Native</h3>
-              <p>Desenvolvimento de aplicativos móveis multiplataforma (iOS e Android) usando os mesmos conceitos do React.</p>
-              <span className="learning-badge">Estudando</span>
-            </div>
-
-            <div className="learning-card">
-              <div className="learning-icon">🛠️</div>
-              <h3>Expo</h3>
-              <p>Ferramentas e serviços do ecossistema Expo para acelerar o desenvolvimento e a publicação de apps React Native.</p>
-              <span className="learning-badge">Estudando</span>
-            </div>
-
-            <div className="learning-card">
-              <div className="learning-icon">🗄️</div>
-              <h3>Back-End</h3>
-              <p>Construção de APIs, autenticação e integração com bancos de dados para dar suporte completo às aplicações.</p>
-              <span className="learning-badge">Estudando</span>
-            </div>
+            {learning.map((item, i) => (
+              <TiltCard key={item.title} delay={i * 90}>
+                <div className="learning-card">
+                  <div className="learning-icon">{item.icon}</div>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                  <span className="learning-badge">Estudando</span>
+                </div>
+              </TiltCard>
+            ))}
           </div>
         </div>
 
-        {/* Seção sobre metodologia Bootstrap */}
         <div className="bootstrap-section">
           <div className="bootstrap-content">
             <div className="bootstrap-text">

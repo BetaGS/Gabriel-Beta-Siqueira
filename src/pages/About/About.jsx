@@ -9,7 +9,7 @@ const About = () => {
           <div className="about-text">
             <h1>Sobre Mim</h1>
             <p>
-              Sou um desenvolvedor front-end apaixonado por criar soluções digitais 
+              Sou um desenvolvedor FullStack (React no front-end e Python no back-end) apaixonado por criar soluções digitais 
               inovadoras e eficientes. Com experiência em diversas tecnologias modernas, 
               busco sempre entregar produtos de alta qualidade que resolvam problemas reais.
             </p>

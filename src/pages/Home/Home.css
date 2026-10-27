@@ -531,3 +531,75 @@
 .tech-icon.css {
   background: linear-gradient(135deg, #264de4, #2965f1);
 }
+/* ===== Atualização 3D / Back-end ===== */
+.hero-section {
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.hero-section > :not(.hero3d) {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  background: linear-gradient(90deg, #ffffff, #ffb3b3, #ffffff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hero-shine 6s linear infinite;
+  text-shadow: none;
+}
+
+@keyframes hero-shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (min-width: 901px) {
+  .hero-section {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 40%;
+  }
+  .hero-subtitle {
+    margin-left: 0;
+  }
+  .hero-buttons {
+    justify-content: flex-start;
+  }
+}
+
+.skills-grid .tilt-card,
+.learning-grid .tilt-card {
+  height: 100%;
+}
+
+.backend-section {
+  margin: 20px 0 70px;
+}
+
+.backend-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.tech-icon.python {
+  background: linear-gradient(135deg, #3776ab, #ffd43b);
+  color: #111;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title {
+    animation: none;
+  }
+}

@@ -212,3 +212,54 @@
     font-size: 2.2rem;
   }
 }
+/* ===== Ícones das redes sociais ===== */
+.contact-item h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-item h3 svg {
+  color: var(--accent-red-light, #ff4444);
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link svg {
+  font-size: 1.25rem;
+  transition: transform 0.3s;
+}
+
+.social-link:hover svg {
+  transform: scale(1.2) rotate(-6deg);
+}
+
+.social-linkedin:hover {
+  background-color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.social-github:hover {
+  background-color: #2b3137;
+  border-color: #ffffff;
+}
+
+.social-instagram:hover {
+  background: linear-gradient(45deg, #f09433, #dc2743 50%, #bc1888);
+  border-color: #dc2743;
+}
+
+.social-x:hover {
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .social-link {
+    justify-content: center;
+  }
+}

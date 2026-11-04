@@ -582,17 +582,6 @@
   height: 100%;
 }
 
-.backend-section {
-  margin: 20px 0 70px;
-}
-
-.backend-section h2 {
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: 2.5rem;
-  color: white;
-}
-
 .tech-icon.python {
   background: linear-gradient(135deg, #3776ab, #ffd43b);
   color: #111;
@@ -602,4 +591,8 @@
   .hero-title {
     animation: none;
   }
+}
+
+.tech-icon.mysql {
+  background: linear-gradient(135deg, #00618a, #e48e00);
 }

@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects';
 // Corrigido para remover a barra dupla '//'
 import About from './pages/About/About'; 
 import Contact from './pages/Contact/Contact';
+import BootScreen from './components/BootScreen/BootScreen';
 import BackgroundFX from './components/BackgroundFX/BackgroundFX';
 import { api } from './lib/api';
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <BootScreen />
         <BackgroundFX />
         <Navbar />
         <div className="content">

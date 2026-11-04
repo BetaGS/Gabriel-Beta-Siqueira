@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero3D from '../../components/Hero3D/Hero3D';
 import TiltCard from '../../components/TiltCard/TiltCard';
-import ApiPlayground from '../../components/ApiPlayground/ApiPlayground';
 import './Home.css';
 
 const skills = [
@@ -21,6 +20,7 @@ const tools = [
   { cls: 'react', label: 'React', text: 'React.js' },
   { cls: 'python', label: 'Py', text: 'Python' },
   { cls: 'node', label: 'Node', text: 'Node.js' },
+  { cls: 'mysql', label: 'SQL', text: 'MySQL' },
   { cls: 'git', label: 'Git', text: 'Versionamento' },
   { cls: 'figma', label: 'Figma', text: 'Design UI/UX' },
 ];
@@ -68,15 +68,6 @@ const Home = () => {
               </TiltCard>
             ))}
           </div>
-        </div>
-
-        <div className="backend-section">
-          <h2>Back-End em Python</h2>
-          <p className="section-description">
-            Este portfólio tem um servidor próprio em Python. Teste a API ao vivo: ela conta visitas,
-            serve os projetos e recebe as mensagens do formulário de contato.
-          </p>
-          <ApiPlayground />
         </div>
 
         <div className="technologies-section">

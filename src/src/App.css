@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --dark-bg: #121212;
+  --darker-bg: #0a0a0a;
+  --card-bg: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --accent-red: #8B0000;
+  --accent-gold: #FFD700;
+  --accent-blue: #3498db;
+  --border-color: #333333;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+}
+
+.content {
+  padding-top: 80px;
+  min-height: calc(100vh - 80px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+:root {
+  --dark-bg: #121212;
+  --darker-bg: #0a0a0a;
+  --card-bg: #1e1e1e;
+  --text-primary: #ffffff; /* Alterado para branco */
+  --text-secondary: #cccccc; /* Cinza claro */
+  --accent-red: #8B0000;
+  --accent-red-light: #ff4444; /* Adicionado vermelho claro */
+  --border-color: #333333;
+}

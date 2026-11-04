@@ -1,0 +1,48 @@
+.bgfx-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* O fundo escuro passa a ficar no body; as páginas ficam transparentes para o efeito aparecer */
+body {
+  background: radial-gradient(ellipse at 50% 0%, #1c0a0a 0%, #121212 55%, #0a0a0a 100%) fixed;
+}
+
+.App {
+  background-color: transparent !important;
+  position: relative;
+}
+
+.App .content,
+.App .home,
+.App .projects,
+.App .about,
+.App .contact {
+  position: relative;
+  z-index: 1;
+  background-color: transparent !important;
+}
+
+.bgfx-toggle {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1001;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--border-color, #333);
+  background: rgba(30, 30, 30, 0.85);
+  backdrop-filter: blur(6px);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.25s, border-color 0.25s;
+}
+
+.bgfx-toggle:hover {
+  transform: scale(1.1) rotate(10deg);
+  border-color: #ff4444;
+}

@@ -156,35 +156,5 @@
         ]
       }
     ]
-  },
-  {
-    "id": 8,
-    "title": "API do Portfólio",
-    "description": "API em Python (FastAPI + SQLite) que dá vida a este portfólio: contador de visitas, lista de projetos e recebimento de mensagens do formulário de contato, com validação, rate limit e CORS.",
-    "technologies": [
-      "Python",
-      "FastAPI",
-      "SQLite"
-    ],
-    "image": null,
-    "icon": "🐍",
-    "link": "https://github.com/BetaGS",
-    "category": "backend"
-  },
-  {
-    "id": 9,
-    "title": "Bot de Assinaturas para Discord",
-    "description": "Bot que automatiza o acesso a comunidades pagas: confirma o pagamento da assinatura anual pela InfinitePay, libera o cargo VIP no servidor e remove o cargo quando a assinatura vence. Integração de pagamentos, webhooks e API do Discord, hospedado na Railway.",
-    "technologies": [
-      "JavaScript",
-      "Node.js",
-      "Discord API",
-      "InfinitePay",
-      "Railway"
-    ],
-    "image": null,
-    "icon": "🤖",
-    "link": "https://github.com/BetaGS",
-    "category": "backend"
   }
 ]

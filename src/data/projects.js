@@ -18,24 +18,38 @@
 
 export const projects = [
   {
-    id: 1,
-    title: 'E-commerce de Confeitaria',
-    description: 'Plataforma de e-commerce para venda de produtos de confeitaria',
-    technologies: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
-    image: '/images/docemila.png',
-    link: 'https://betags.github.io/E-commerce-DoceMila/',
+    id: 5,
+    title: 'Doce Mila',
+    description: 'Aplicação web de comércio eletrônico desenvolvida em React para uma doceria artesanal. O projeto conta com vitrine interativa de produtos, navegação fluida entre categorias, gerenciamento dinâmico de carrinho de compras e interface responsiva otimizada para conversão em dispositivos móveis e desktop.',
+    technologies: ['React', 'JavaScript'],
+    image: '/images/docemila-react.png',
+    link: 'https://e-commerce-doce-mila-react-o66x.onrender.com',
     category: 'web',
   },
+
   {
-    id: 2,
-    title: 'Calculadora Online',
+    id: 6,
+    title: 'Projeto Filiar 2026',
     description:
-      'Calculadora básica: realiza as quatro operações fundamentais (adição, subtração, multiplicação e divisão), além de funções como porcentagem e raiz quadrada.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: '/images/calculadora.png',
-    link: 'https://betags.github.io/calculadora/',
+      'Landing page da Creche Municipal Tia Maria, desenvolvida para dar visibilidade aos projetos pedagógicos expostos na FLIAR 2026.',
+    technologies: ['React', 'JavaScript'],
+    image: '/images/crechetiamaria.png',
+    link: 'https://creche-tia-maria.onrender.com/',
     category: 'web',
   },
+
+    {
+    id: 6,
+    title: 'Convite de casamento',
+    description:
+      'Desenvolvimento de uma landing page personalizada para substituir convites impressos tradicionais por uma experiência digital acessível em qualquer dispositivo. A interface combina design limpo e tipografia temática com funcionalidades essenciais para os convidados, facilitando o acesso rápido à data, endereço da cerimônia/recepção, lista de presentes e confirmação de presença.',
+    technologies: ['React', 'JavaScript',],
+    image: '/images/JK.png',
+    link: 'https://convite-casamento-m5oy.onrender.com/',
+    category: 'web',
+  },
+
+
   {
     id: 3,
     title: 'E-commerce de Tecnologia',
@@ -54,23 +68,25 @@ export const projects = [
     link: 'https://betags.github.io/E-commerce-GamerNoob/',
     category: 'web',
   },
-  {
-    id: 5,
-    title: 'Doce Mila',
-    description: 'E-commerce de confeitaria artesanal',
-    technologies: ['React', 'JavaScript'],
-    image: '/images/docemila-react.png',
-    link: 'https://e-commerce-doce-mila-react-o66x.onrender.com',
+
+    {
+    id: 2,
+    title: 'Calculadora Online',
+    description:
+      'Calculadora básica: realiza as quatro operações fundamentais (adição, subtração, multiplicação e divisão), além de funções como porcentagem e raiz quadrada.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: '/images/calculadora.png',
+    link: 'https://betags.github.io/calculadora/',
     category: 'web',
   },
-  {
-    id: 6,
-    title: 'Projeto Filiar 2026',
-    description:
-      'Landing page da Creche Municipal Tia Maria, desenvolvida para dar visibilidade aos projetos pedagógicos expostos na FLIAR 2026.',
-    technologies: ['React'],
-    image: '/images/crechetiamaria.png',
-    link: 'https://creche-tia-maria.onrender.com/',
+
+    {
+    id: 1,
+    title: 'E-commerce de Confeitaria',
+    description: 'Plataforma de e-commerce para venda de produtos de confeitaria',
+    technologies: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
+    image: '/images/docemila.png',
+    link: 'https://betags.github.io/E-commerce-DoceMila/',
     category: 'web',
   },
 
